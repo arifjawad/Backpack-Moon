@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+}
+nav{
+    font-size: 18px;
+    font-weight: 500;
+}
+:root{
+    --primary-color:#2A1E59;
+   --secondary-color: #76C27E;
+}
+.custom-font{
+    font-family: Bebas Neue;
+}
+.custom-color-1{
+    color: var(--primary-color);
+}
+.custom-color-2{
+    color: var(--secondary-color);
+}
+.custom-bg{
+    background-color: #F1F1F1;
+}
+.header-bg{
+    background-color: #FFFFF4;
+}
+.img-resize{
+    width: 24px;
+    height: 24px;
+}
+.button-color{
+    background-color:var(--primary-color);
+    color: white;
+}
+.button-color:hover{
+    color: white;
+}
+.backpack-card{
+    padding: 15px 15px;
+    border: 0;
+    border-radius: 15px;
+}
+
+.backpack-img{
+    padding: 15px 15px;
+    background-color: #F1F1F1;
+    border-radius: 15px;
+}
+
+.backpack-card-footer{
+    background-color: white;
+    border: 0;
+    
+}
+.backpack-card-footer img{
+    width: 24px;
+    height: 24px;
+     
+ }
+ .about-card{
+    padding: 15px 15px;
+    border: 0;
+    border-radius: 15px;
+   
+}
+.about-icon{
+    padding: 5px 5px;
+    width: 80px;
+    height: 80px;
+}
+.nav-item:hover{
+    
+  border-bottom: 1px solid var(--primary-color);
+ 
+}
+.newsletter-card{
+    padding: 15px 15px;
+    border: 0;
+    background-color:#F1F1F1 ;
+   
+}
+.newsletter-card img{
+    border-radius: 15px;
+
+}
